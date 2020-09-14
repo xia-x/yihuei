@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "集市",
+  "usingComponents": {
+    "title": "/components/title/title"
+  }
+}

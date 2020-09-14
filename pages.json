@@ -1,0 +1,75 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+            "path" : "pages/home/home",
+            "style" : {
+				"navigationBarTitleText":"首页"
+			}
+        }
+        ,{
+            "path" : "pages/fund/fund",
+            "style" : {
+				"navigationBarTitleText":"发现"
+			}
+        }
+        ,{
+            "path" : "pages/market/market",
+            "style" : {
+				"navigationBarTitleText":"集市"
+			}
+        }
+        ,{
+            "path" : "pages/myinfo/myinfo",
+            "style" : {
+				"navigationBarTitleText":"我的"
+			}
+        }
+        ,{
+            "path" : "pages/size/size",
+            "style" : {}
+        }
+        ,{
+            "path" : "components/title/title",
+            "style" : {}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar":{
+		"color":"#a6a6a6",
+		"selectedColor":"#090909",
+		"borderStyle":"black",
+		"backgroundColor":"#fff",
+		"list":[
+			{
+				"pagePath":"pages/home/home",
+				"iconPath":"static/img/tab_btn_default_home.png",
+				"selectedIconPath":"static/img/tab_btn_select_home.png",
+				"text":"首页"
+			},
+			{
+				"pagePath":"pages/fund/fund",
+				"iconPath":"static/img/tab_btn_default_find.png",
+				"selectedIconPath":"static/img/tab_btn_select_fund.png",
+				"text":"发现"
+			},
+			{
+				"pagePath":"pages/market/market",
+				"iconPath":"static/img/tab_btn_default_market.png",
+				"selectedIconPath":"static/img/tab_btn_select_market.png",
+				"text":"集市"
+			},
+			{
+				"pagePath":"pages/myinfo/myinfo",
+				"iconPath":"static/img/tab_btn_default_my.png",
+				"selectedIconPath":"static/img/tab_btn_select_my.png",
+				"text":"我的"
+			}
+			
+		]
+	}
+}

@@ -1,0 +1,1 @@
+<view><button data-event-opts="{{[['tap',[['opensize',['$event']]]]]}}" bindtap="__e">打开</button></view>

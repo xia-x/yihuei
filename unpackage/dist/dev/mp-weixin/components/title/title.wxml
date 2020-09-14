@@ -1,0 +1,1 @@
+<view class="data-v-8efe0d14"><view class="title data-v-8efe0d14"><view class="data-v-8efe0d14">{{titlename}}</view><view class="haed_more data-v-8efe0d14"><view class="data-v-8efe0d14">MORE</view><uni-icons vue-id="579eb650-1" type="arrowright" size="13" color="#a6a6a6" class="data-v-8efe0d14" bind:__l="__l"></uni-icons></view></view></view>

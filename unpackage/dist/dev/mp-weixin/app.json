@@ -1,0 +1,51 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/fund/fund",
+    "pages/market/market",
+    "pages/myinfo/myinfo",
+    "pages/size/size",
+    "components/title/title"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#a6a6a6",
+    "selectedColor": "#090909",
+    "borderStyle": "black",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "iconPath": "static/img/tab_btn_default_home.png",
+        "selectedIconPath": "static/img/tab_btn_select_home.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/fund/fund",
+        "iconPath": "static/img/tab_btn_default_find.png",
+        "selectedIconPath": "static/img/tab_btn_select_fund.png",
+        "text": "发现"
+      },
+      {
+        "pagePath": "pages/market/market",
+        "iconPath": "static/img/tab_btn_default_market.png",
+        "selectedIconPath": "static/img/tab_btn_select_market.png",
+        "text": "集市"
+      },
+      {
+        "pagePath": "pages/myinfo/myinfo",
+        "iconPath": "static/img/tab_btn_default_my.png",
+        "selectedIconPath": "static/img/tab_btn_select_my.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap62.json"
+}

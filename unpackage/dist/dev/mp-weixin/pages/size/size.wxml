@@ -1,0 +1,1 @@
+<view><input data-event-opts="{{[['input',[['onKeyInput',['$event']]]]]}}" bindinput="__e"/><button data-event-opts="{{[['tap',[['getsize',['$event']]]]]}}" bindtap="__e">换算</button><view>{{size}}</view></view>
