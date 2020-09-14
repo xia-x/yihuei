@@ -32,6 +32,10 @@
             "path" : "components/title/title",
             "style" : {}
         }
+        ,{
+            "path" : "pages/test/test",
+            "style" : {}
+        }
     ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
