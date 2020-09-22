@@ -1,0 +1,162 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.topnav_con.data-v-17ab1826 {
+  padding: 30rpx 32rpx 0rpx 133rpx;
+  text-align: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  background: #fff;
+}
+.topnav_con .topnav_item view.data-v-17ab1826 {
+  width: 116rpx;
+  font-size: 34rpx;
+  font-weight: 800rpx;
+  color: #090909;
+}
+.topnav_con .item_after.data-v-17ab1826 {
+  padding-bottom: 30rpx;
+  border-bottom: 4rpx solid;
+}
+.topnav_con image.data-v-17ab1826 {
+  width: 50rpx;
+  height: 48rpx;
+  margin-right: 32rpx;
+}
+.example-body.data-v-17ab1826 {
+  padding: 16rpx;
+  margin-top: 5rpx;
+  background: #fff;
+}
+.example-body .swiper.data-v-17ab1826 {
+  height: 550rpx;
+}
+.example-body .grid-item-box.data-v-17ab1826 {
+  margin: 15rpx;
+  background: #fff;
+  box-shadow: 0 0 10rpx rgba(0, 0, 0, 0.1);
+  border-radius: 10rpx;
+  width: 200rpx;
+  height: 250rpx;
+  text-align: center;
+  font-size: 26rpx;
+}
+.example-body .grid-item-box image.data-v-17ab1826 {
+  width: 200rpx;
+  height: 150rpx;
+  border-radius: 10rpx 10rpx 0rpx 0rpx;
+}
+.example-body .grid-item-box .text.data-v-17ab1826 {
+  margin: 16rpx auto;
+}
+.artinfo_con.data-v-17ab1826 {
+  font-size: 26rpx;
+  margin-top: 16rpx;
+  background: #fff;
+  padding: 34rpx;
+}
+.artinfo_con .artinfo_userinfo.data-v-17ab1826 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.artinfo_con .artinfo_userinfo .user_name.data-v-17ab1826 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  line-height: 100rpx;
+}
+.artinfo_con .artinfo_userinfo .user_name image.data-v-17ab1826 {
+  width: 100rpx;
+  height: 100rpx;
+}
+.artinfo_con .artinfo_userinfo .user_btn.data-v-17ab1826 {
+  width: 112rpx;
+  height: 50rpx;
+  background: transparent;
+  font-size: 28rpx;
+  line-height: 50rpx;
+  padding: 0rpx;
+  margin-top: 30rpx;
+  margin-right: 0rpx;
+}
+.artinfo_con .item_content view.data-v-17ab1826:nth-child(1) {
+  padding: 18rpx;
+}
+.artinfo_con .item_content view.data-v-17ab1826:nth-child(2) {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  padding: 18rpx;
+}
+.artinfo_con .item_content view.data-v-17ab1826:nth-child(3) {
+  color: #323232;
+  padding: 18rpx;
+}
+.artinfo_con .itme_imgs.data-v-17ab1826 {
+  margin: 26rpx auto;
+}
+.artinfo_con .itme_imgs image.data-v-17ab1826 {
+  width: 215rpx;
+  height: 215rpx;
+  margin: 6rpx;
+  border-radius: 0rpx;
+}
+.artinfo_con .item_collect.data-v-17ab1826 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.artinfo_con .item_collect image.data-v-17ab1826 {
+  width: 50rpx;
+  height: 50rpx;
+}
+.artinfo_con .item_collect view.data-v-17ab1826:nth-child(1),
+.artinfo_con .item_collect view.data-v-17ab1826:nth-child(2) {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  width: 200rpx;
+}
+.artinfo_con .item_collect view:nth-child(1) view.data-v-17ab1826,
+.artinfo_con .item_collect view:nth-child(2) view.data-v-17ab1826 {
+  line-height: 50rpx;
+}
+.artinfo_con .item_comments.data-v-17ab1826 {
+  margin-top: 50rpx;
+}
+.artinfo_con .item_comments .comments_name.data-v-17ab1826 {
+  color: #323232;
+}
+

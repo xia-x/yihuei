@@ -1,5 +1,5 @@
 {
-    "name" : "yishu",
+    "name" : "艺绘",
     "appid" : "",
     "description" : "",
     "versionName" : "1.0.0",
@@ -57,7 +57,7 @@
     "quickapp" : {},
     /* 小程序特有相关 */
     "mp-weixin" : {
-        "appid" : "",
+        "appid" : "wx5a1c1d4079b78271",
         "setting" : {
             "urlCheck" : false
         },
@@ -72,7 +72,7 @@
     "mp-toutiao" : {
         "usingComponents" : true
     },
-    "uniStatistics": {  
-        "enable": false
+    "uniStatistics" : {
+        "enable" : false
     }
 }

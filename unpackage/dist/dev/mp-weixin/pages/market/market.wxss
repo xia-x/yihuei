@@ -24,7 +24,7 @@
 /* 垂直间距 */
 /* 透明度 */
 /* 文章场景相关 */
-.title.data-v-8efe0d14 {
+.title.data-v-491d8038 {
   font-size: 36rpx;
   display: -webkit-box;
   display: -webkit-flex;
@@ -33,7 +33,7 @@
   -webkit-justify-content: space-between;
           justify-content: space-between;
 }
-.title .haed_more.data-v-8efe0d14 {
+.title .haed_more.data-v-491d8038 {
   color: #a6a6a6;
   font-size: 26rpx;
   line-height: 60rpx;

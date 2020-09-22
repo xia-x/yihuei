@@ -29,7 +29,7 @@
             "style" : {}
         }
         ,{
-            "path" : "components/title/title",
+            "path" : "components/my-title/my-title",
             "style" : {}
         }
         ,{

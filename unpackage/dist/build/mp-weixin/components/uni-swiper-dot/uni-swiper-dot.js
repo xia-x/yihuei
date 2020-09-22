@@ -1,0 +1,10 @@
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["components/uni-swiper-dot/uni-swiper-dot"],{"196a":function(t,e,n){"use strict";var o,i=function(){var t=this,e=t.$createElement;t._self._c},s=[];n.d(e,"b",(function(){return i})),n.d(e,"c",(function(){return s})),n.d(e,"a",(function(){return o}))},"355c":function(t,e,n){"use strict";Object.defineProperty(e,"__esModule",{value:!0}),e.default=void 0;var o={name:"UniSwiperDot",props:{info:{type:Array,default:function(){return[]}},current:{type:Number,default:0},dotsStyles:{type:Object,default:function(){return{}}},mode:{type:String,default:"default"},field:{type:String,default:""}},data:function(){return{dots:{width:8,height:8,bottom:10,color:"#b2b2b2",backgroundColor:"#b2b2b2",border:"1px rgba(0, 0, 0, .3) solid",selectedBackgroundColor:"#fff",selectedBorder:"1px #fff solid"}}},watch:{dotsStyles:function(t){this.dots=Object.assign(this.dots,this.dotsStyles)},mode:function(t){"indexes"===t?(this.dots.width=20,this.dots.height=20):(this.dots.width=8,this.dots.height=8)}},created:function(){"indexes"===this.mode&&(this.dots.width=20,this.dots.height=20),this.dots=Object.assign(this.dots,this.dotsStyles)}};e.default=o},"76a6":function(t,e,n){"use strict";n.r(e);var o=n("355c"),i=n.n(o);for(var s in o)"default"!==s&&function(t){n.d(e,t,(function(){return o[t]}))}(s);e["default"]=i.a},"8eab":function(t,e,n){"use strict";n.r(e);var o=n("196a"),i=n("76a6");for(var s in i)"default"!==s&&function(t){n.d(e,t,(function(){return i[t]}))}(s);n("b0da");var d,r=n("f0c5"),u=Object(r["a"])(i["default"],o["b"],o["c"],!1,null,"26372030",null,!1,o["a"],d);e["default"]=u.exports},a04c:function(t,e,n){},b0da:function(t,e,n){"use strict";var o=n("a04c"),i=n.n(o);i.a}}]);
+;(global["webpackJsonp"] = global["webpackJsonp"] || []).push([
+    'components/uni-swiper-dot/uni-swiper-dot-create-component',
+    {
+        'components/uni-swiper-dot/uni-swiper-dot-create-component':(function(module, exports, __webpack_require__){
+            __webpack_require__('543d')['createComponent'](__webpack_require__("8eab"))
+        })
+    },
+    [['components/uni-swiper-dot/uni-swiper-dot-create-component']]
+]);

@@ -15,7 +15,7 @@
 		  </view>
 		</view>
 		<view class="works_con">
-			<title :titlename="workstitle"></title>
+			<uni-title :titlename="workstitle"></uni-title>
 			<view class="wosks_list">
 				<view v-for="item in works" :key="item.id">
 					<image :src="item.url"></image>
@@ -24,7 +24,7 @@
 			</view>
 		</view>
 	    <view class="exhibit_con">
-			<title :titlename="exhibititle"></title>
+			<uni-title :titlename="exhibititle"></uni-title>
 			<view class="exhibit_list">
 				<view class="exhibit_list_item" v-for="item in exhibits" :key="item.id">
 					<image :src="item.url"></image>
@@ -39,7 +39,7 @@
 <script>
 	import uniSwiperDot from "@/components/uni-swiper-dot/uni-swiper-dot.vue"
 	import uniIcons from "@/components/uni-icons/uni-icons.vue"
-	import title from "@/components/title/title.vue"
+	import uniTitle from "@/components/my-title/my-title.vue"
 	export default {
 		data() {
 			return {
@@ -80,7 +80,7 @@
         components:{
 			"uni-swiper-dot":uniSwiperDot,
 			"uni-icons":uniIcons,
-			 title,
+			"uni-title":uniTitle,
 		}
 	}
 </script>

@@ -10,25 +10,16 @@
 		"preloadBackgroundData": false,
 		"minified": true,
 		"newFeature": true,
-		"coverView": true,
 		"autoAudits": false,
+		"coverView": true,
 		"showShadowRootInWxmlPanel": true,
 		"scopeDataCheck": false,
-		"checkInvalidKey": true,
-		"checkSiteMap": true,
-		"uploadWithSourceMap": true,
-		"babelSetting": {
-			"ignore": [],
-			"disablePlugins": [],
-			"outputPath": ""
-		},
-		"useCompilerModule": false,
-		"userConfirmedUseCompilerModuleSwitch": false
+		"useCompilerModule": false
 	},
 	"compileType": "miniprogram",
 	"libVersion": "",
-	"appid": "touristappid",
-	"projectname": "yishu",
+	"appid": "wx5a1c1d4079b78271",
+	"projectname": "%E8%89%BA%E7%BB%98",
 	"simulatorType": "wechat",
 	"simulatorPluginLibVersion": {},
 	"condition": {

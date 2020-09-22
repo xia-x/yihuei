@@ -5,7 +5,8 @@
     "pages/market/market",
     "pages/myinfo/myinfo",
     "pages/size/size",
-    "components/title/title"
+    "components/my-title/my-title",
+    "pages/test/test"
   ],
   "subPackages": [],
   "window": {
@@ -47,5 +48,5 @@
     ]
   },
   "usingComponents": {},
-  "sitemapLocation": "sitemap62.json"
+  "sitemapLocation": "sitemap13.json"
 }

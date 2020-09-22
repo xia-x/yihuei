@@ -10,7 +10,7 @@
 			</view>
 		</view>
 		<view class="art_con">
-			<title :titlename="Arttile"></title>
+			<uni-title :titlename="Arttile"></uni-title>
 			<view class="art_list">
 				<view class="list_itme" v-for="item in artgoods" :key="item.id">
 					<image :src="item.url"></image>
@@ -24,7 +24,7 @@
 </template>
 
 <script>
-	import title from "@/components/title/title.vue"
+	import unTtitle from "@/components/my-title/my-title.vue"
 	export default {
 		data() {
 			return {
@@ -46,7 +46,7 @@
 			
 		},
 		components:{
-			title,
+			"uni-title":unTtitle,
 		}
 	}
 </script>
