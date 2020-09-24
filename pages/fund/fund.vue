@@ -1,11 +1,6 @@
 <template>
 	<view>
-		<view class="topnav_con">
-			<view class="topnav_item" v-for="(item,index) in topnav" :key="index" @click="tabnav(index)">
-				<view :class="[navindex==index?'item_after':'']">{{item.name}}</view>
-			</view>
-			<image src="../../static/img/find_btn_edit.png"></image>
-		</view>
+	    <uni-topnav :topnav="topnav" :navindex="navindex" @changeindex="changeindex"></uni-topnav>
 		<view class="example-body">
 			<swiper class="swiper" :indicator-dots="true">
 				<swiper-item>
@@ -68,6 +63,7 @@
 	import uniSwiperDot from "@/components/uni-swiper-dot/uni-swiper-dot.vue"
 	import uniGrid from "@/components/uni-grid/uni-grid.vue"
 	import uniGridItem from "@/components/uni-grid-item/uni-grid-item.vue"
+	import unitopnav from "@/components/top-nav/top-nav"
 	export default {
 		data() {
 			return {
@@ -140,7 +136,7 @@
 			}
 		},
 		methods: {
-			tabnav(index){
+			changeindex(index){
 				console.log(index)
 				this.navindex=index
 			},
@@ -161,33 +157,12 @@
 			uniGrid,
 			uniGridItem,
 			uniSwiperDot,
+			"uni-topnav":unitopnav,
 		}
 	}
 </script>
 
-<style lang="scss" scoped>
-	.topnav_con{
-		padding: 30rpx 32rpx 0rpx 133rpx;
-		text-align: center;
-		display: flex;
-		justify-content:space-between;
-		background: #fff;
-		.topnav_item view{
-			width: 116rpx;
-			font-size: 34rpx;
-			font-weight: 800rpx;
-			color: $font-color-a;
-		}
-		.item_after{
-			padding-bottom: 30rpx;
-			border-bottom: 4rpx solid;
-		}
-		image{
-			width: 50rpx;
-			height: 48rpx;
-			margin-right: 32rpx;
-		}
-	}
+<style lang="scss" scoped>	
 	.example-body{
 		padding: 16rpx;
 		margin-top: 5rpx;
@@ -285,5 +260,4 @@
 		    }
 	     }
 	}
-
 </style>

@@ -25,15 +25,19 @@
 			}
         }
         ,{
-            "path" : "pages/size/size",
-            "style" : {}
-        }
-        ,{
             "path" : "components/my-title/my-title",
             "style" : {}
         }
         ,{
             "path" : "pages/test/test",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/login/login",
+            "style" : {}
+        }
+        ,{
+            "path" : "components/top-nav/top-nav",
             "style" : {}
         }
     ],

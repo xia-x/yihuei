@@ -3,9 +3,11 @@
 		<view class="myinfo_top">
 			<image class="setup" src="../../static/img/my_btn_setup.png"></image>
 			<view class="userinfo">
-				<image src="../../static/img/my_userimg.png"></image>
-				<view>{{username}}</view>
-				<view>{{userlabel}}</view>
+				<image v-if="loginflag" src="../../static/img/my_userimg.png"></image>
+				<image v-else src="../../static/img/myinfo_logo.png"></image>
+				<view  v-show="loginflag">{{username}}</view>
+				<view  v-show="loginflag">{{userlabel}}</view>
+			    <view  v-if="!loginflag" @click="dtaillongin">点击登录</view>
 			</view>
 			<view class="menu_con">
 				<view class="menu_list" v-for="(item,index) in menuarr" :key="index">
@@ -37,11 +39,26 @@
 					{url:"../../static/img/my_icon_coupons.png",menuname:"优惠卷"},
 					{url:"../../static/img/my_icon_wishlist.png",menuname:"心愿清单"}
 				],
-				miannav:["我的订单","收货地址","意见反馈","关于我们","联系客服"]
+				miannav:["我的订单","收货地址","意见反馈","关于我们","联系客服"],
+				loginflag:false
 			}
 		},
+		onShow:function(){
+			let that =this
+			// this.loginflag =uni.getStorageSync('loginflag')
+			uni.getStorage({key: 'loginflag',
+			    success: function (res) {
+			        console.log(res.data);
+					that.loginflag =res.data
+			    }
+			});
+		},
 		methods: {
-			
+			dtaillongin(){
+				uni.navigateTo({
+					url:"../login/login"
+				})
+			}
 		},
 		components:{
 			"uni-icons":uniIcons,

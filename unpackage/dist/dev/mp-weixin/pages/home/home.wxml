@@ -1,1 +1,42 @@
-<view class="home_con data-v-92bb8f34"><uni-swiper-dot vue-id="1da55560-1" info="{{banners}}" current="{{current}}" field="content" mode="{{mode}}" class="data-v-92bb8f34" bind:__l="__l" vue-slots="{{['default']}}"><swiper class="swiper data-v-92bb8f34" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" data-event-opts="{{[['change',[['change',['$event']]]]]}}" bindchange="__e"><block wx:for="{{banners}}" wx:for-item="item" wx:for-index="index" wx:key="index"><swiper-item class="data-v-92bb8f34"><image src="{{item.url}}" class="data-v-92bb8f34"></image><image class="searchicon data-v-92bb8f34" src="../../static/img/homepage_icon_search.png"></image></swiper-item></block></swiper></uni-swiper-dot><view class="navs_con data-v-92bb8f34"><block wx:for="{{navs}}" wx:for-item="item" wx:for-index="index" wx:key="index"><view class="navs_list data-v-92bb8f34"><view class="item_title data-v-92bb8f34">{{item.title}}</view><view class="item_subhaed data-v-92bb8f34">{{item.subhaed}}</view></view></block></view><view class="works_con data-v-92bb8f34"><uni-title vue-id="1da55560-2" titlename="{{workstitle}}" class="data-v-92bb8f34" bind:__l="__l"></uni-title><view class="wosks_list data-v-92bb8f34"><block wx:for="{{works}}" wx:for-item="item" wx:for-index="__i0__" wx:key="id"><view class="data-v-92bb8f34"><image src="{{item.url}}" class="data-v-92bb8f34"></image><text class="data-v-92bb8f34">{{item.name}}</text></view></block></view></view><view class="exhibit_con data-v-92bb8f34"><uni-title vue-id="1da55560-3" titlename="{{exhibititle}}" class="data-v-92bb8f34" bind:__l="__l"></uni-title><view class="exhibit_list data-v-92bb8f34"><block wx:for="{{exhibits}}" wx:for-item="item" wx:for-index="__i1__" wx:key="id"><view class="exhibit_list_item data-v-92bb8f34"><image src="{{item.url}}" class="data-v-92bb8f34"></image><view class="itme_name data-v-92bb8f34">{{item.name}}</view><view class="itme_time data-v-92bb8f34">{{item.time}}</view></view></block></view></view></view>
+<view class="home_con data-v-92bb8f34">
+	<uni-swiper-dot vue-id="1da55560-1" info="{{banners}}" current="{{current}}" field="content" mode="{{mode}}" class="data-v-92bb8f34" bind:__l="__l" vue-slots="{{['default']}}">
+		<swiper class="swiper data-v-92bb8f34" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" data-event-opts="{{[['change',[['change',['$event']]]]]}}" bindchange="__e">
+			<block wx:for="{{banners}}" wx:for-item="item" wx:for-index="index" wx:key="index">
+				<swiper-item class="data-v-92bb8f34">
+					<image src="{{item.url}}" class="data-v-92bb8f34"></image>
+					<image class="searchicon data-v-92bb8f34" src="../../static/img/homepage_icon_search.png"></image>
+				</swiper-item>
+			</block>
+		</swiper>
+	</uni-swiper-dot>
+	<view class="navs_con data-v-92bb8f34">
+		<block wx:for="{{navs}}" wx:for-item="item" wx:for-index="index" wx:key="index">
+			<view class="navs_list data-v-92bb8f34">
+				<view class="item_title data-v-92bb8f34">{{item.title}}</view>
+				<view class="item_subhaed data-v-92bb8f34">{{item.subhaed}}</view>
+			</view>
+		</block>
+	</view>
+	<view class="works_con data-v-92bb8f34">
+		<uni-title vue-id="1da55560-2" titlename="{{workstitle}}" class="data-v-92bb8f34" bind:__l="__l"></uni-title>
+		<view class="wosks_list data-v-92bb8f34">
+			<block wx:for="{{works}}" wx:for-item="item" wx:for-index="__i0__" wx:key="id">
+				<view class="data-v-92bb8f34">
+					<image src="{{item.url}}" class="data-v-92bb8f34"></image><text class="data-v-92bb8f34">{{item.name}}</text>
+				</view>
+			</block>
+		</view>
+	</view>
+	<view class="exhibit_con data-v-92bb8f34">
+		<uni-title vue-id="1da55560-3" titlename="{{exhibititle}}" class="data-v-92bb8f34" bind:__l="__l"></uni-title>
+		<view class="exhibit_list data-v-92bb8f34">
+			<block wx:for="{{exhibits}}" wx:for-item="item" wx:for-index="__i1__" wx:key="id">
+				<view class="exhibit_list_item data-v-92bb8f34">
+					<image src="{{item.url}}" class="data-v-92bb8f34"></image>
+					<view class="itme_name data-v-92bb8f34">{{item.name}}</view>
+					<view class="itme_time data-v-92bb8f34">{{item.time}}</view>
+				</view>
+			</block>
+		</view>
+	</view>
+</view>
